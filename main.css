@@ -1,0 +1,19 @@
+.nav {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+/* the .animal element is a flex box, in a flex box (.container) */
+.animal {
+    flex-basis: 25%;
+    display: flex;
+}
+img {
+    width: 250px;
+}
