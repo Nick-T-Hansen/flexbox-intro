@@ -13,7 +13,21 @@
 .animal {
     flex-basis: 25%;
     display: flex;
+    padding: 10px;
 }
+.dog_container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 50%
+    justify-content: space-around;
+}
+.dog {
+flex-direction: row;
+padding: 10px, 0px, 10px, 0px;
+}
+
+
 img {
     width: 250px;
 }
